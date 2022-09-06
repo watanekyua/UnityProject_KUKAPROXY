@@ -1,0 +1,7 @@
+1.將lib 資料夾複製至Windows/System32以及Windows/SysWOW64
+2.以系統管理員啟動cmd, 執行以下指令
+C:\Windows> cd C:\Windows\SysWOW64\lib
+C:\Windows\SysWOW64> regsvr32 Cross.ocx
+C:\Windows\SysWOW64> regsvr32 cswsk32.ocx
+
+3.至src資料夾執行KukavarProxy.exe, 點選Debug
